@@ -1,0 +1,23 @@
+2020-10-05 22:01:33.994 [main] INFO  com.test.readers.FileReadAndStore.CSVReader.CSVRead - Reading the File !!
+2020-10-05 22:01:33.997 [main] INFO  com.test.readers.FileReadAndStore.CSVReader.CSVRead - Records Rows Ready To be Processed RowID: 1, OrderID: CA-2016-152156
+2020-10-05 22:01:33.998 [main] INFO  com.test.readers.FileReadAndStore.CSVReader.CSVRead - Records Rows Ready To be Processed RowID: 2, OrderID: CA-2016-152156
+2020-10-05 22:01:34.000 [main] INFO  com.test.readers.FileReadAndStore.CSVReader.CSVRead - Records Rows Ready To be Processed RowID: 3, OrderID: CA-2016-138688
+2020-10-05 22:01:34.005 [main] INFO  com.test.readers.FileReadAndStore.CSVReader.CSVRead - Records Rows Ready To be Processed RowID: 4, OrderID: US-2015-108966
+2020-10-05 22:01:34.007 [main] INFO  com.test.readers.FileReadAndStore.CSVReader.CSVRead - Records Rows Ready To be Processed RowID: 6, OrderID: CA-2014-115812
+2020-10-05 22:01:34.008 [main] INFO  com.test.readers.FileReadAndStore.CSVReader.CSVRead - Records Rows Ready To be Processed RowID: 7, OrderID: CA-2014-115812
+2020-10-05 22:01:34.008 [main] INFO  com.test.readers.FileReadAndStore.CSVReader.CSVRead - Records Rows Ready To be Processed RowID: 8, OrderID: CA-2014-115812
+2020-10-05 22:01:34.010 [main] INFO  com.test.readers.FileReadAndStore.CSVReader.CSVRead - Records Rows Ready To be Processed RowID: 9, OrderID: CA-2015-117415
+2020-10-05 22:01:34.011 [main] INFO  com.test.readers.FileReadAndStore.CSVReader.CSVRead - Records Rows Ready To be Processed RowID: 11, OrderID: CA-2014-115812
+2020-10-05 22:01:34.012 [main] ERROR com.test.readers.FileReadAndStore.CSVReader.CSVRead - Exceptions in File (Please read lineNumber -1 as header line is included
+2020-10-05 22:01:34.013 [main] ERROR com.test.readers.FileReadAndStore.CSVReader.CSVRead - Exception on line 6 is:Field 'productId' is mandatory but no value was provided.
+2020-10-05 22:01:34.013 [main] ERROR com.test.readers.FileReadAndStore.CSVReader.CSVRead - Exception on line 12 is:Field 'orderId' is mandatory but no value was provided.
+2020-10-05 22:01:34.014 [main] INFO  com.test.readers.FileReadAndStore.ReadAndStore - Passing objects to Database !! 
+2020-10-05 22:01:34.578 [main] ERROR com.test.readers.FileReadAndStore.Persistance.MySQLAccess - From Database Exception is : Duplicate entry 'CA-2016-152156' for key 'ORDER_ID'
+2020-10-05 22:01:34.579 [main] ERROR com.test.readers.FileReadAndStore.Persistance.MySQLAccess - From Database Exception is : Duplicate entry 'CA-2016-152156' for key 'ORDER_ID'
+2020-10-05 22:01:34.583 [main] ERROR com.test.readers.FileReadAndStore.Persistance.MySQLAccess - From Database Exception is : Duplicate entry 'CA-2016-138688' for key 'ORDER_ID'
+2020-10-05 22:01:34.588 [main] ERROR com.test.readers.FileReadAndStore.Persistance.MySQLAccess - From Database Exception is : Duplicate entry 'US-2015-108966' for key 'ORDER_ID'
+2020-10-05 22:01:34.589 [main] ERROR com.test.readers.FileReadAndStore.Persistance.MySQLAccess - From Database Exception is : Duplicate entry 'CA-2014-115812' for key 'ORDER_ID'
+2020-10-05 22:01:34.591 [main] ERROR com.test.readers.FileReadAndStore.Persistance.MySQLAccess - From Database Exception is : Duplicate entry 'CA-2014-115812' for key 'ORDER_ID'
+2020-10-05 22:01:34.593 [main] ERROR com.test.readers.FileReadAndStore.Persistance.MySQLAccess - From Database Exception is : Duplicate entry 'CA-2014-115812' for key 'ORDER_ID'
+2020-10-05 22:01:34.595 [main] ERROR com.test.readers.FileReadAndStore.Persistance.MySQLAccess - From Database Exception is : Duplicate entry 'CA-2015-117415' for key 'ORDER_ID'
+2020-10-05 22:01:34.597 [main] ERROR com.test.readers.FileReadAndStore.Persistance.MySQLAccess - From Database Exception is : Duplicate entry 'CA-2014-115812' for key 'ORDER_ID'

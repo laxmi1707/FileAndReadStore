@@ -1,0 +1,12 @@
+2020-10-05 22:01:34.012 [main] ERROR com.test.readers.FileReadAndStore.CSVReader.CSVRead - Exceptions in File (Please read lineNumber -1 as header line is included
+2020-10-05 22:01:34.013 [main] ERROR com.test.readers.FileReadAndStore.CSVReader.CSVRead - Exception on line 6 is:Field 'productId' is mandatory but no value was provided.
+2020-10-05 22:01:34.013 [main] ERROR com.test.readers.FileReadAndStore.CSVReader.CSVRead - Exception on line 12 is:Field 'orderId' is mandatory but no value was provided.
+2020-10-05 22:01:34.578 [main] ERROR com.test.readers.FileReadAndStore.Persistance.MySQLAccess - From Database Exception is : Duplicate entry 'CA-2016-152156' for key 'ORDER_ID'
+2020-10-05 22:01:34.579 [main] ERROR com.test.readers.FileReadAndStore.Persistance.MySQLAccess - From Database Exception is : Duplicate entry 'CA-2016-152156' for key 'ORDER_ID'
+2020-10-05 22:01:34.583 [main] ERROR com.test.readers.FileReadAndStore.Persistance.MySQLAccess - From Database Exception is : Duplicate entry 'CA-2016-138688' for key 'ORDER_ID'
+2020-10-05 22:01:34.588 [main] ERROR com.test.readers.FileReadAndStore.Persistance.MySQLAccess - From Database Exception is : Duplicate entry 'US-2015-108966' for key 'ORDER_ID'
+2020-10-05 22:01:34.589 [main] ERROR com.test.readers.FileReadAndStore.Persistance.MySQLAccess - From Database Exception is : Duplicate entry 'CA-2014-115812' for key 'ORDER_ID'
+2020-10-05 22:01:34.591 [main] ERROR com.test.readers.FileReadAndStore.Persistance.MySQLAccess - From Database Exception is : Duplicate entry 'CA-2014-115812' for key 'ORDER_ID'
+2020-10-05 22:01:34.593 [main] ERROR com.test.readers.FileReadAndStore.Persistance.MySQLAccess - From Database Exception is : Duplicate entry 'CA-2014-115812' for key 'ORDER_ID'
+2020-10-05 22:01:34.595 [main] ERROR com.test.readers.FileReadAndStore.Persistance.MySQLAccess - From Database Exception is : Duplicate entry 'CA-2015-117415' for key 'ORDER_ID'
+2020-10-05 22:01:34.597 [main] ERROR com.test.readers.FileReadAndStore.Persistance.MySQLAccess - From Database Exception is : Duplicate entry 'CA-2014-115812' for key 'ORDER_ID'

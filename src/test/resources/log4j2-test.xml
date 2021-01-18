@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+    <Appenders>
+      <File name="FileAppender" fileName="application-test-error-${date:yyyyMMdd}.log" immediateFlush="false" append="true">
+            <PatternLayout pattern="%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </File>
+         <File name="FileAppender2" fileName="application-test-info-${date:yyyyMMdd}.log" immediateFlush="false" append="true">
+            <PatternLayout pattern="%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </File>
+    </Appenders>
+    <Loggers>
+        <Root level="debug">
+            <AppenderRef ref="FileAppender" level="ERROR"/>
+            <AppenderRef ref="FileAppender2" level="INFO"/>
+        </Root>
+    </Loggers>
+</Configuration>
